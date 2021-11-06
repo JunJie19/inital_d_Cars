@@ -17,12 +17,11 @@
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   /* background-color: transparent; */
   border-radius: 10px;
-  margin-bottom: 3rem; 
-   opacity: 1;
+  margin-bottom: 3rem;
+  opacity: 1;
   transition-duration: 1s;
   transform: scale(1);
 }
-
 
 .imgScreen {
   display: flex;
@@ -136,3 +135,79 @@
   background-repeat: no-repeat;
   background-color: transparent;
 }
+
+@media only screen and (max-width: 1400px) {
+  .imgScreen {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .contentRight {
+    height: 300px;
+  }
+  .Contactus {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .imgScreen {
+    width: 90%;
+  }
+  .contentRight {
+    height: 250px;
+  }
+
+  .Contactus {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .carImg {
+    height: 430px;
+  }
+
+  .imgScreen {
+    width: 90%;
+  }
+
+  .articleContent{
+    display: inline;
+  }
+
+  .contentLeft{
+    padding: 1rem;
+  }
+
+  .contentRight{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Contactus {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .imgScreen {
+    width: 100%;
+    height: 30%;
+  }
+  .Contactus {
+    width: 90%;
+  }
+
+  .contentRight{
+    width: 100%;
+    height: 230px;
+
+  }
+}
+
+
