@@ -12,7 +12,7 @@ function Contact() {
     const [subject, setsubject] = useState("")
 
     const submitHandle = () => {
-        axios.post('http://localhost:3001/contact', { name: name, email: email, subject: subject,message: content }).then((response) => {
+        axios.post('https://initialdcars.herokuapp.com/contact', { name: name, email: email, subject: subject,message: content }).then((response) => {
             if (response) {
                 alert('sent!')
             }

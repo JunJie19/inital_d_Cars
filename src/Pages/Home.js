@@ -42,7 +42,7 @@ function Home() {
     }
 
     const submitHandle = () => {
-        axios.post('http://localhost:3001/contact', { name: name, email: email, message: content, subject: subject }).then((response) => {
+        axios.post(' https://initialdcars.herokuapp.com/contact', { name: name, email: email, message: content, subject: subject }).then((response) => {
             if (response) {
                 alert('sent!')
             }
