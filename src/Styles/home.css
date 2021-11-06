@@ -1,0 +1,138 @@
+.HomeScreen {
+  width: 100%;
+  height: fit-content;
+  background-color: black;
+  padding: 1rem;
+  color: white;
+}
+
+.carImg {
+  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 60vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  /* background-color: transparent; */
+  border-radius: 10px;
+  margin-bottom: 3rem; 
+   opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1);
+}
+
+
+.imgScreen {
+  display: flex;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.left {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  flex: 0.05;
+  height: 430px;
+  cursor: pointer;
+}
+
+.right {
+  cursor: pointer;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  flex: 0.05;
+  height: 430px;
+}
+
+.articleContent {
+  margin-top: 1rem;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.contentLeft {
+  flex: 0.4;
+}
+
+.contentRight {
+  background-image: url("../img/projectD.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+  flex: 0.4;
+  margin-left: 1rem;
+  border: 4px solid white;
+  border-radius: 10px;
+}
+
+.Contact {
+  margin-top: 3rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.Contactus {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 1.5rem;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  color: black;
+}
+
+/* Gallery */
+.cardContent {
+  padding: 1rem;
+  align-items: center;
+  justify-items: center;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 1rem;
+}
+
+/* ABout */
+.aboutUs {
+  display: flex;
+  padding: 1rem;
+  width: 80%;
+  height: 80vh;
+  margin-right: auto;
+  margin-left: auto;
+  border: 4px solid black;
+}
+
+.leftAbout {
+  flex: 0.6;
+  text-align: justify;
+}
+
+.rightAbout {
+  margin-left: 10px;
+  flex: 0.4;
+  background-image: url("../img/aboutBackground.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
